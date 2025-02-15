@@ -1,0 +1,40 @@
+$ 1 0.0000049999999999999996 0.20306040966347483 50 5 50 5e-11
+v 1888 608 1888 480 0 2 1000 2.5 0 0 0.5
+c 1920 480 1968 480 0 0.000009999999999999999 -1.8013278370145764 0.001
+34 VD 0 2.52e-9 9800 1.4 75 1
+d 2000 576 2000 512 2 VD
+r 2080 512 2080 576 0 100000
+w 2000 480 2080 480 0
+w 2000 608 2080 608 0
+w 2000 608 1888 608 0
+g 1888 608 1888 624 0 0
+368 2080 480 2144 480 1 0 Vout_Clamper
+368 1888 480 1840 480 1 0 Vin_Clamper
+w 1920 416 1920 480 0
+w 1968 416 1968 480 0
+403 2288 400 2704 672 0 9_1_0_x83016_4.550002015923807_0.0001_-1_4_1_-28_9_3_0.8_0_8_0_1_-28_8_3_0.8_0_Green:\sVin\s\s\sRed:\sVout
+x 1866 266 2047 269 4 24 Positive\sClamper
+w 2000 576 2000 608 1
+w 2080 576 2080 608 1
+w 1888 480 1920 480 0
+w 1968 480 2000 480 0
+x 1812 308 2539 311 4 16 NOTE:\sAdjust\sthe\s'Simulation\sSpeed'\sslider\sall\sthe\sway\sto\sthe\sright\suntil\sthe\svoltage\sacross\sthe\scapacitor
+x 1909 337 1910 340 4 24 \0
+x 1876 329 2504 332 4 16 stabilizes\sat\s1.8V.\sNow\syou\scan\sadjust\sthe\s'Simulation\sSpeed'\sslider\showever\syou\schoose.
+x 1830 92 2438 95 4 24 The\snode\sin\sthe\scircuit\swill\sthen\sbecome\sa\slight\sblue\scolor.
+x 2098 -100 2322 -97 4 24 Creator:\sRiley\sCorbin
+x 1830 -34 2577 -31 4 24 You\scan\sadjust\sthe\sspeed\sof\sthe\scurrent\swith\sthe\s'Current\sSpeed'\sslider.
+x 1732 62 2704 65 4 24 NOTE:\sTo\sview\sthe\snode\sof\sa\strace\son\sthe\splot,\sstop\sthe\ssimulation\sand\shover\sover\sthe\strace.
+x 1734 29 2571 32 4 24 NOTE:\sGreen\sindicates\sa\spositive\svoltage\sand\sred\sindicates\sa\snegative\svoltage.
+x 1735 -67 2734 -64 4 24 NOTE:\sConventional\scurrent\sflow\sis\sbeing\sshown,\swith\sfaster\scurrents\sdenoting\slarger\scurrents.
+x 2107 -136 2313 -133 4 36 Clamper\sLab
+x 1734 -3 2971 0 4 24 NOTE:\sTo\sadjust\sthe\ssimulation\sspeed\sand\show\sfast\sthe\strace\son\sthe\splot\sis\smoving,\suse\sthe\s'Simulation\sSpeed'\sslider.
+x 1843 538 1862 541 4 14 Vin
+w 2000 512 2000 480 0
+w 2080 512 2080 480 0
+x 2095 537 2112 540 4 14 R1
+x 2013 549 2030 552 4 14 D1
+x 1935 512 1952 515 4 14 C1
+O 1888 480 1872 464 1 0
+x 1926 385 1961 388 4 14 V_C1
+p 1968 416 1920 416 3 0 0

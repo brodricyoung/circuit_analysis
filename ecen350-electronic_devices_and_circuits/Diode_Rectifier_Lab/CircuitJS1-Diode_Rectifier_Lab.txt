@@ -1,0 +1,43 @@
+$ 1 0.0000049999999999999996 0.32112705431535615 59 5 50 5e-11
+x -984 389 -918 392 4 14 AC\sSupply
+w -896 432 -832 432 0
+g -896 432 -896 448 0 0
+v -896 368 -896 432 0 1 60 169.7056274847714 0 0 0.5
+169 -832 368 -752 368 0 0.01 0.25 -38.14360352661906 1.714352890758164e-7 0.01728239632271311 0.999
+g -704 400 -704 416 0 0
+34 D1N4007 1 1.7143528192810002e-7 0 1.7371779266385192 0 1
+d -656 320 -544 320 2 D1N4007
+d -656 480 -544 480 2 D1N4007
+w -544 480 -544 416 0
+w -544 320 -496 320 0
+209 -496 320 -496 480 0 0.00001 20.42577664698683 0.001 1
+r -416 320 -416 480 0 4700
+w -496 320 -416 320 2
+w -496 480 -416 480 0
+g -416 480 -416 496 0 0
+w -896 368 -832 368 2
+w -704 320 -656 320 2
+w -704 480 -656 480 2
+x -475 391 -461 394 4 14 Cf
+x -403 390 -386 393 4 14 R1
+x -610 306 -593 309 4 14 D1
+x -609 463 -592 466 4 14 D2
+403 -848 544 -416 784 0 16_8_0_x81016_20_0.1_-1_5_7.5_0_16_3_0.05_0_17_0_7.5_0_17_3_0.025_0_12_3_0.025_0
+w -704 320 -752 320 0
+w -752 320 -752 368 0
+w -704 480 -752 480 0
+w -752 480 -752 432 0
+w -752 400 -704 400 0
+w -544 416 -544 320 0
+x -1079 87 158 90 4 24 NOTE:\sTo\sadjust\sthe\ssimulation\sspeed\sand\show\sfast\sthe\strace\son\sthe\splot\sis\smoving,\suse\sthe\s'Simulation\sSpeed'\sslider.
+x -745 -40 -439 -37 4 36 Diode\sRectifier\sLab
+x -1079 23 -80 26 4 24 NOTE:\sConventional\scurrent\sflow\sis\sbeing\sshown,\swith\sfaster\scurrents\sdenoting\slarger\scurrents.
+x -1080 178 -141 181 4 24 NOTE:\sGreen\swire\sindicates\sa\spositive\svoltage\sand\sred\swire\sindicates\sa\snegative\svoltage.
+x -1079 118 -107 121 4 24 NOTE:\sTo\sview\sthe\snode\sof\sa\strace\son\sthe\splot,\sstop\sthe\ssimulation\sand\shover\sover\sthe\strace.
+x -983 54 -236 57 4 24 You\scan\sadjust\sthe\sspeed\sof\sthe\scurrent\swith\sthe\s'Current\sSpeed'\sslider.
+x -720 -7 -496 -4 4 24 Creator:\sRiley\sCorbin
+x -983 150 -375 153 4 24 The\snode\sin\sthe\scircuit\swill\sthen\sbecome\sa\slight\sblue\scolor.
+x -686 298 -664 301 4 16 In1
+x -688 459 -666 462 4 16 In2
+x -1083 211 187 214 4 24 NOTE:\sThere\sis\sno\scurrent\sthrough\sD1\sor\sD2\suntil\sthe\srectified\speaks\sof\sIn1\sor\sIn2\sexceed\sthe\scapacitor\svoltage\sby\s0.7\sV.
+368 -416 320 -368 320 1 0 Vout
