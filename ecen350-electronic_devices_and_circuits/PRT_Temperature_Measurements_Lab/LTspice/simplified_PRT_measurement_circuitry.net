@@ -1,0 +1,13 @@
+* C:\Users\young\Downloads\simplified_PRT_measurement_circuitry.asc
+R2 Vplus 0 {Rprt}
+R1 N001 Vplus 1kohm
+XU1 Vref N002 N003 Vplus 0 Vref Vout N001 AD8221
+RG N002 N003 7.15kohm
+Vref Vref 0 2.5V
+Vs N001 0 5.0V
+.op
+.step param arg 0 5.76 0.12
+.param Rprt=1000*(1.1-(0.04)*sin(arg))
+.lib ADI1.lib
+.backanno
+.end
