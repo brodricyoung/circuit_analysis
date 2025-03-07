@@ -1,0 +1,74 @@
+$ 65 0.001 0.07165313105737893 69 5 50 5e-11
+v 1504 1760 1504 1632 0 0 40 9 0 0 0.5
+32 2N3906 0 1.0000000000000002e-14 0 0 1.5 0 0 2 1 1 0.01 0 4
+t 1648 1536 1680 1536 0 -1 -0.6031899986613709 -0.7257845639372995 300 2N3906
+t 1920 1536 1888 1536 0 -1 8.725156912116628 0.6905529784088369 300 2N3906
+r 1584 1840 1584 1776 0 100000
+r 1680 1744 1680 1792 0 470
+r 1888 1744 1888 1792 0 470
+r 1984 1840 1984 1776 0 100000
+209 1744 1616 1808 1616 0 0.000009999999999999999 -0.8131475436847655 0.001 20
+209 1808 1680 1744 1680 0 0.000009999999999999999 -7.308819369770492 0.001 20
+w 1504 1632 1504 1488 0
+w 1504 1488 1680 1488 3
+w 1680 1520 1680 1488 0
+w 1680 1488 1888 1488 3
+w 1888 1488 1888 1520 0
+w 1984 1616 1984 1776 1
+w 1984 1840 1984 1888 0
+w 1680 1888 1584 1888 0
+w 1584 1888 1504 1888 0
+w 1504 1888 1504 1760 0
+w 1584 1840 1584 1888 0
+w 1680 1840 1680 1888 0
+w 1680 1744 1680 1704 1
+w 1680 1616 1744 1616 1
+w 1680 1592 1680 1552 3
+w 1888 1584 1888 1552 3
+w 1584 1536 1584 1680 1
+w 1696 1680 1744 1680 1
+w 1808 1680 1888 1680 1
+w 1888 1680 1888 1744 1
+w 1888 1840 1888 1888 0
+w 1680 1888 1888 1888 0
+w 1888 1888 1984 1888 0
+w 1984 1536 1984 1616 1
+w 1872 1616 1808 1616 1
+w 1584 1680 1584 1776 1
+x 1501 1255 2541 1258 4 24 While\sQ1\sis\son,\sQ1\swill\scharge\sC2\svia\sthe\sBase\sterminal\sand\sC1\swill\sbegin\sdischarging\sthrough\sR4.
+x 1684 1540 1702 1543 4 14 Q1
+x 1863 1539 1881 1542 4 14 Q2
+x 2001 1800 2018 1803 4 14 R4
+x 1899 1759 1916 1762 4 14 R3
+x 1846 1815 1863 1818 4 14 D2
+x 1690 1760 1707 1763 4 14 R2
+x 1697 1817 1714 1820 4 14 D1
+x 1597 1800 1614 1803 4 14 R1
+x 1765 1654 1782 1657 4 14 C2
+x 1767 1589 1784 1592 4 14 C1
+x 1694 1834 1714 1837 4 14 red
+x 1837 1832 1872 1835 4 14 green
+x 1500 1382 2544 1385 4 24 While\sQ1\sis\son,\sthe\sred\sLED\swill\sbe\son\sand\sthe\sgreen\sLED\swill\sbe\soff.\sVice\sversa\sfor\swhen\sQ2\sis\son.
+x 1522 1319 2696 1322 4 24 Due\sto\sC1\sdischarging,\sVb2\sshould\sexperience\sa\ssharp\sincrease\sto\s16.3V\sand\sthen\sa\sgradual\sdecrease\sto\s8.3V.
+x 1523 1352 2616 1355 4 24 With\s|Vbe2|>\q0.7V,\sthen\sthe\sEmitter-Base\sjunction\sof\sQ2\sis\sforward\sbiased,\swhich\smeans\sQ2\sis\snow\son.
+162 1888 1792 1888 1840 2 default-led 0 1 0 0.01
+162 1680 1792 1680 1840 2 default-led 1 0 0 0.01
+w 1872 1616 1984 1616 0
+w 1696 1680 1584 1680 0
+w 1680 1704 1680 1616 0
+w 1680 1592 1680 1616 0
+w 1648 1536 1608 1536 2
+w 1920 1536 1960 1536 2
+w 1960 1536 1984 1536 0
+w 1888 1584 1888 1680 0
+w 1608 1536 1584 1536 0
+x 1522 1287 2299 1290 4 24 Vc≅Ve\sand\sVb\qVe-0.7V\q8.3V\swhen\swe\sare\soperating\sas\sa\sclosed\sswitch.
+x 1840 956 2124 959 4 36 Blinking\sLight\sLab
+x 1865 989 2089 992 4 24 Creator:\sRiley\sCorbin
+403 2160 1472 2664 1888 0 58_4_0_4354_20_0.1_-1_2_58_3_Base\sVoltage\sof\sQ2
+x 1504 1093 2741 1096 4 24 NOTE:\sTo\sadjust\sthe\ssimulation\sspeed\sand\show\sfast\sthe\strace\son\sthe\splot\sis\smoving,\suse\sthe\s'Simulation\sSpeed'\sslider.
+x 1504 1029 2503 1032 4 24 NOTE:\sConventional\scurrent\sflow\sis\sbeing\sshown,\swith\sfaster\scurrents\sdenoting\slarger\scurrents.
+x 1504 1188 2443 1191 4 24 NOTE:\sGreen\swire\sindicates\sa\spositive\svoltage\sand\sred\swire\sindicates\sa\snegative\svoltage.
+x 1504 1124 2476 1127 4 24 NOTE:\sTo\sview\sthe\snode\sof\sa\strace\son\sthe\splot,\sstop\sthe\ssimulation\sand\shover\sover\sthe\strace.
+x 1600 1060 2347 1063 4 24 You\scan\sadjust\sthe\sspeed\sof\sthe\scurrent\swith\sthe\s'Current\sSpeed'\sslider.
+x 1600 1156 2208 1159 4 24 The\snode\sin\sthe\scircuit\swill\sthen\sbecome\sa\slight\sblue\scolor.
