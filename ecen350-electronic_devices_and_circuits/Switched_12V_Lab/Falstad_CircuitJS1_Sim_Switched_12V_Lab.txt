@@ -1,0 +1,85 @@
+$ 1 0.0000049999999999999996 2.3728258192205156 47 5 50 5e-11
+v 96 208 96 112 0 0 40 12 0 0 0.5
+r 240 112 240 224 0 51000
+r 432 112 496 112 0 4.3
+32 2N3906 0 1.0000000000000002e-14 0 0 1.5 0 0 2 1 1 0.01 0 0.25
+t 416 208 368 208 0 -1 10.498160202321811 -0.32513666301407795 200 2N3906
+w 112 112 240 112 1
+w 240 112 368 112 1
+w 240 288 368 288 0
+g 96 208 96 224 0 0
+r 560 288 640 288 0 1000
+w 368 288 560 288 0
+f 672 288 720 288 33 1.25 0.025
+w 720 240 720 272 3
+34 P6KE24A 1 0.000001 0 1.9589285091023323 24 1
+z 592 480 592 384 2 P6KE24A
+r 720 384 720 480 0 150
+w 720 352 592 352 0
+w 720 480 688 480 0
+r 368 336 368 416 0 5100
+32 2N3904 0 1.0000000000000002e-14 2.5 0 1.5 0 0 2 1 1 0.01 0 0.25
+t 336 480 368 480 0 1 0.5244478083262337 0.6188047542012631 200 2N3904
+w 368 496 368 592 3
+r 256 480 176 480 0 100000
+r 176 544 176 592 0 10000
+g 368 592 368 608 0 0
+g 176 592 176 608 0 0
+v 96 592 96 480 0 0 40 3.3 0 0 0.5
+g 96 592 96 608 0 0
+w 112 480 176 480 1
+g 688 480 688 496 0 0
+p 432 48 496 48 3 0 0
+w 432 48 432 112 0
+w 496 48 496 112 0
+w 256 480 336 480 3
+w 368 336 368 304 3
+w 368 192 368 112 3
+w 432 112 368 112 1
+w 496 112 720 112 0
+w 416 208 448 208 3
+w 496 208 496 112 0
+w 368 288 368 224 3
+w 640 288 672 288 2
+w 368 416 368 464 3
+w 176 496 176 528 1
+w 720 352 720 304 3
+w 368 304 368 288 0
+x 250 160 267 163 4 14 R3
+w 688 480 592 480 0
+x 383 368 400 371 4 14 R4
+x 455 90 472 93 4 14 R5
+x 345 210 363 213 4 14 Q2
+x 376 484 394 487 4 14 Q1
+x 190 556 207 559 4 14 R1
+x 209 456 226 459 4 14 R2
+w 176 496 176 480 0
+w 176 528 176 544 0
+x 594 264 611 267 4 14 R6
+x 731 418 767 421 4 14 Rload
+x 557 422 574 425 4 14 D1
+x 516 443 576 446 4 14 P6KE24A
+x 735 297 826 300 4 14 PCH\sMOSFET
+x -61 -146 831 -143 4 24 NOTE:\sR6\sis\san\sESD\sprotection\sresistor\sand\sexperiences\sno\scurrent\sor\svoltage\sdrop.
+w 240 224 240 288 3
+w 720 368 720 384 3
+w 592 368 592 384 3
+w 592 368 592 352 0
+w 720 368 720 352 0
+w 112 112 96 112 2
+x -61 -114 1031 -111 4 24 NOTE:\sThe\sZener\sdiode\sis\sused\sfor\slimiting\sany\stransient\sspikes\sfrom\sthe\sfan\scurrent\sabruptly\schanging.
+w 448 208 496 208 0
+w 720 240 720 112 0
+w 96 480 112 480 2
+x 26 538 69 541 4 14 Von/off
+x 447 17 482 20 4 14 V_R5
+x 303 -275 527 -272 4 24 Creator:\sRiley\sCorbin
+x 35 -209 782 -206 4 24 You\scan\sadjust\sthe\sspeed\sof\sthe\scurrent\swith\sthe\s'Current\sSpeed'\sslider.
+x -61 -178 878 -175 4 24 NOTE:\sGreen\swire\sindicates\sa\spositive\svoltage\sand\sred\swire\sindicates\sa\snegative\svoltage.
+x -60 -242 939 -239 4 24 NOTE:\sConventional\scurrent\sflow\sis\sbeing\sshown,\swith\sfaster\scurrents\sdenoting\slarger\scurrents.
+x 270 -306 560 -303 4 36 Switched\s12V\sLab
+x -62 -81 781 -78 4 24 NOTE:\sThere\sis\sa\sslider\sto\sthe\sright\sfor\sadjusting\sVon/off\sbetween\s0\sV\sand\s3.3\sV.
+x -62 -49 780 -46 4 24 NOTE:\sThere\sis\sa\sslider\sto\sthe\sright\sfor\sadjusting\sRload\sbetween\s22\sΩ\sand\s1\skΩ.
+x -62 -18 802 -15 4 24 NOTE:\sYou\scan\salso\sadjust\sthe\svalues\sof\scomponents\sby\sdouble-clicking\son\sthem.
+38 23 F1 0 0 3.3 -1 Von/off
+38 13 F1 0 22 200 -1 Rload
